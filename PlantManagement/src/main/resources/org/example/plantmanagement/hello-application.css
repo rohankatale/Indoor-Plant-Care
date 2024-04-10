@@ -1,0 +1,60 @@
+.main-home-page {
+    -fx-background-color: #F24822;
+}
+
+.plant-card {
+    -fx-background-color: #D9B596;
+    -fx-border-color: #8B4513;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px;
+    -fx-pref-width: 200px; /* Fixed width for the card */
+    -fx-pref-height: 200px; /* Fixed height for the card */
+}
+
+.plant-image {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #8B4513;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-fit-width: 150px; /* Fixed width for the image */
+    -fx-fit-height: 150px; /* Fixed height for the image */
+    -fx-preserve-ratio: true;
+}
+
+.plant-form {
+    -fx-background-color: #F5F5DC;
+}
+
+.plant-form-label {
+    -fx-text-fill: #8B4513;
+}
+
+.button {
+    -fx-background-color: #3c8dbc; /* A nice blue color for the buttons */
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-padding: 10px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #367fa9; /* Darker blue on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #204d74; /* Even darker blue on press */
+}
+
+/* New styles for the plant details labels */
+.plant-details-label {
+    -fx-text-fill: #000000; /* Black text color */
+    -fx-font-size: 14px; /* Adjust the font size as needed */
+    -fx-font-weight: bold; /* Make the text bold */
+}
+
+/* Adjust the plant card to include spacing for the labels */
+.plant-card {
+    -fx-spacing: 10px; /* Adjust the spacing between the image and the labels */
+}
